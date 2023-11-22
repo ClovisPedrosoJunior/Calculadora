@@ -1,0 +1,25 @@
+<!DocType html>
+
+<script language="javascript"> 
+op="";
+num1="0";
+num2="0";
+resp="";
+PrimeiroNumero=true;
+PontoDecimal=false;
+memoria="";
+
+function verficatacla(caracter){
+if(window.event)
+var tecla = event.keyCode;
+//alert (Primeiro Numero);
+if((tecla>47)&&(tecla<58))
+tecla = tecla - 48;
+mostra(tecla);}
+if (tecla==46)
+mostra(".");
+}
+
+
+</script>
+</html>
