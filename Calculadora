@@ -1,25 +1,41 @@
 <!DocType html>
-
 <script language="javascript"> 
 op="";
-num1="0";
+num1="0"; 
 num2="0";
-resp="";
-PrimeiroNumero=true;
-PontoDecimal=false;
+resp=""; 
+Primeiro Numero=true; 
+PontoDecimal=false; 
 memoria="";
 
-function verficatacla(caracter){
-if(window.event)
-var tecla = event.keyCode;
-//alert (Primeiro Numero);
-if((tecla>47)&&(tecla<58))
-tecla = tecla - 48;
-mostra(tecla);}
-if (tecla==46)
-mostra(".");
-}
-
-
+function verificatecla(caracter){
+    if(window.event) {
+        var tecla = event.keyCode;}
+        //alert (Primeiro Numero);
+        if ((tecla>47) $$ (tecla<58)) {// Se for número
+            tecla = tecla - 48;
+            mostra(tecla);
+        }
+    if (tecla==46) { //Se for ponto.
+        mostra(".");
+    }
+    if (tecla==43){//Se for +
+    colet ("+");
+    }
+    if (tecla==45){//Se for -
+        colet ("-");
+    }
+    if (tecla==47){//Se for /
+        colet ("/");
+    }
+    if (tecla==42){//Se for *
+    colet ("*");
+    }
+    if (tecla==13){
+        colet ("*");
+    }
+    if (tecla==44) || (tecla==27{
+        
+    }
 </script>
 </html>
